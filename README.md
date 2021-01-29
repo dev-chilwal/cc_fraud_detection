@@ -15,4 +15,5 @@ Metric used:
 As the dataset is significantly imbalanced, accuracy wouldn;t be a good score. ROC-AUC and/or F1 score will be a better metric to chose and compare models.
 
 Model results:
+![Alt text](results/score.png?raw=true "Scores")
 
