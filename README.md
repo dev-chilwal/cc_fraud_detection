@@ -11,3 +11,8 @@ Models tested:
 3 XGBoost
 4. Stacked model(Logistic Regression, RandomForest, XGBoost with Logistic Regression as final estimator)
 
+Metric used:
+As the dataset is significantly imbalanced, accuracy wouldn;t be a good score. ROC-AUC and/or F1 score will be a better metric to chose and compare models.
+
+Model results:
+
