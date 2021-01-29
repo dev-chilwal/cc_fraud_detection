@@ -15,5 +15,20 @@ Metric used:
 As the dataset is significantly imbalanced, accuracy wouldn;t be a good score. ROC-AUC and/or F1 score will be a better metric to chose and compare models.
 
 Model results:
+1. Logistic Regression
+![Alt text](results/log_reg_model.png?raw=true "Score Logistic Regression")
+
+2. Random Forest
+![Alt text](results/rf_model.png?raw=true "Score RandomForest Classifier")
+
+3 XGBoost
+![Alt text](results/xbg_reg_model.png?raw=true "Score XGBoost Classifier")
+
+4. Stacked model(Logistic Regression, RandomForest, XGBoost with Logistic Regression as final estimator)
+
+![Alt text](results/stacked_model.png?raw=true "Score Stacked Classifier")
+
+Scores: 
+
 ![Alt text](results/score.png?raw=true "Scores")
 
