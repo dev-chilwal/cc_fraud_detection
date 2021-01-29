@@ -16,13 +16,16 @@ As the dataset is significantly imbalanced, accuracy wouldn;t be a good score. R
 
 Model results:
 1. Logistic Regression
+
 ![Alt text](results/log_reg_model.png?raw=true "Score Logistic Regression")
 
 2. Random Forest
+
 ![Alt text](results/rf_model.png?raw=true "Score RandomForest Classifier")
 
 3 XGBoost
-![Alt text](results/xbg_reg_model.png?raw=true "Score XGBoost Classifier")
+
+![Alt text](results/xgboost_reg_model.png?raw=true "Score XGBoost Classifier")
 
 4. Stacked model(Logistic Regression, RandomForest, XGBoost with Logistic Regression as final estimator)
 
