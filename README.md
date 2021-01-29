@@ -25,7 +25,7 @@ Model results:
 
 3 XGBoost
 
-![Alt text](results/xgboost_reg_model.png?raw=true "Score XGBoost Classifier")
+![Alt text](results/xgboost_model.png?raw=true "Score XGBoost Classifier")
 
 4. Stacked model(Logistic Regression, RandomForest, XGBoost with Logistic Regression as final estimator)
 
